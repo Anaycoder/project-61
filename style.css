@@ -1,0 +1,99 @@
+body {
+    font-family: "Lobster", cursive;
+  background: radial-gradient(circle, rgb(221, 56, 14) 0%, rgb(17, 178, 206) 100%);
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+  .profile {
+    width: 120px;
+    border-radius: 50%;
+    bottom: 15px;
+    margin-top: 50px;
+  }
+  .link {
+    float: left;
+    color: rgb(39, 147, 155);
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    right: 30px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 10;
+    background-color:rgb(234, 236, 217);
+    top: 1px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+}
+.link:hover {
+  background-color:rgb(18, 124, 8);
+}
+
+#second{
+background-color: rgb(229, 240, 78);
+height: 350px;
+float: bottom;
+margin-top: 190px;
+}
+
+p{
+font-size: 18px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+#favplayer{
+  background-color: rgb(229, 240, 78);
+
+  }
+
+  #wiki{
+    
+    font-size: 25px;
+  }
+
+
+  #facts{
+    background-color: rgb(229, 240, 78);
+  
+    }
+
+    #one{
+      margin-top: 50px;
+    }
+
+    #inspiration{
+      background-color: rgb(229, 240, 78);
+    }
+
+    #imginspire{
+      width: 30%;
+    border-style: solid;
+      border-color: rgb(6, 62, 85);
+      transition: transform .2s;
+    }
+
+    #imginspire:hover{
+      transform: scale(0.9);
+    }
+  #contact{
+    background-color: rgb(229, 240, 78);
+  }
+
+  .envelope{
+    width: 5%;
+  }
+  
+  .snap{
+    width: 5%;
+  }
